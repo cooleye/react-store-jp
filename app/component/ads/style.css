@@ -1,0 +1,47 @@
+.container{
+  width: 100%;
+  height: 20rem;
+  background-color: #fff;
+  margin-top: 10px;
+  display: flex;
+}
+
+/*-------------左部分的ad-------------*/
+.leftPart{
+  flex: 1;
+  height: 100%;
+  border-right: solid 1px #eee;
+}
+.leftPart img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*-------------右部分的ad-------------*/
+.rightPart{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightPart .topPart{
+  width: 100%;
+  flex: 1;
+  height: 10rem;
+  /*background-color: green;*/
+}
+.rightPart .topPart img{
+  width: 100%;
+  height: 100%;
+}
+.rightPart .bottomPart{
+  height: 10rem;
+  flex: 1;
+  width: 100%;
+  /*background-color: red;*/
+}
+.bottomPart img{
+  width: 100%;
+  height: 100%;
+}

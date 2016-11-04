@@ -1,0 +1,29 @@
+.container{
+  background: 'yellow';
+  height: 45px;
+  text-align: center;
+  line-height: 45px
+}
+
+.header{
+  background: -webkit-linear-gradient(left top,#fc404f, #f75728); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom right,#fc404f, #f75728); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom right,#fc404f, #f75728); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom right,#fc404f, #f75728); /* 标准的语法 */
+}
+
+.icon{
+  width: 20px;
+  /*height: 15px;*/
+  /*background-color: red;*/
+  vertical-align: middle;
+}
+
+.rowItem{
+  height: 45px;
+  line-height: 45px;
+}
+
+.rowItem span{
+  line-height: 45px;
+}

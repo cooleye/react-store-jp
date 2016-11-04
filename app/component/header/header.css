@@ -1,0 +1,20 @@
+.container{
+  height: 4rem;
+  width: 101%;
+  background-color: #ffa;
+  /*box-shadow: 2px 2px 4px #aaa;*/
+  display: flex;
+  flex-direction: "row";
+  position: fixed;
+  top: -1px;
+  left: -1px;
+  box-sizing: border-box;
+  padding-top: 3px;
+  z-index: 100;
+  text-align: center;
+  justify-content: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #eee;
+}
