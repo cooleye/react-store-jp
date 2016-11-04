@@ -30,6 +30,7 @@
 
 
 安装：
+
 1、git clone git@github.com:cooleye/react-store-jp.git
 
 2、npm install
