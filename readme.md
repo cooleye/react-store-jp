@@ -26,3 +26,10 @@
 2、webpack配置
 
 3、package.json配置
+
+
+
+安装：
+git clone git@github.com:cooleye/react-store-jp.git
+npm install
+npm start
