@@ -1,5 +1,8 @@
 var webpack = require('webpack');
+//使用一个html模板
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+//该插件会提取entry chunk中所有的 require('*.css') ，分离出独立的css文件。
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   devtool: 'eval-source-map',

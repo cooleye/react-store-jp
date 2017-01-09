@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress"
+    "start": "webpack-dev-server --progress",
+    "build":"webpack"
   },
   "author": "",
   "license": "ISC",
@@ -32,6 +33,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "extract-text-webpack-plugin": "^1.0.1",
     "react-dom": "^15.3.2",
     "react-motion": "^0.4.5",
     "react-router": "^3.0.0",
