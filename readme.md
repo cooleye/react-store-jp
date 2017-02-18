@@ -24,6 +24,8 @@
 ## 安装：
 * `git clone git@github.com:cooleye/react-store-jp.git`
 
+* `cd react-store-jp`
+
 * `npm install`
 
 * `npm start`
